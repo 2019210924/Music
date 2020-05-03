@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/navigation_first"
+        android:name="com.example.heartmusic.view.fragment.FirstFragment"
+        android:label="1"
+        tools:layout="@layout/fragment_first" />
+    <fragment
+        android:id="@+id/navigation_second"
+        android:name="com.example.heartmusic.view.fragment.SecondFragment"
+        android:label="2"
+        tools:layout="@layout/fragment_second" />
+
+    <fragment
+        android:id="@+id/navigation_third"
+        android:name="com.example.heartmusic.view.fragment.ThirdFragment"
+        android:label="3"
+        tools:layout="@layout/fragment_third" />
+
+
+
+</navigation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#F44336</color>
+    <color name="colorAccent">#81241D</color>
+    <color name="colorRed">#F44336</color>
+    <color name="colorRedWrite">#F38F87</color>
+    <color name="colorRedBlack">#4A130E</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhile">#ffffff</color>
+    <color name="colorWhileGrey">#F3F3F3</color>
+    <color name="colorWhileGreyGrey">#D5D5D5</color>
+    <color name="colorWhileGreyGreyGrey">#9F9F9F</color>
+</resources>

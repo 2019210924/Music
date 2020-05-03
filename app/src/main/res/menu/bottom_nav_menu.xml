@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_first"
+        android:icon="@mipmap/flame"
+        android:title="首页"/>
+
+    <item
+        android:id="@+id/navigation_second"
+        android:icon="@mipmap/playlist"
+        android:title="歌单"/>
+
+    <item
+        android:id="@+id/navigation_third"
+        android:icon="@mipmap/account"
+        android:title="我的"/>
+
+
+</menu>

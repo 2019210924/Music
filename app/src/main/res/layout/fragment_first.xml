@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.FirstFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bar_high"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="首页"
+            android:gravity="center"
+            android:textSize="@dimen/bar_test_size"
+            android:textColor="@color/colorWhile"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/fir_search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@mipmap/search"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+
+    <com.example.heartmusic.view.widget.MyLooperView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bg_w"
+        android:id="@+id/fir_banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/rl"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fir_banner"
+        />
+
+
+
+</RelativeLayout>

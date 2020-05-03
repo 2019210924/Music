@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/l_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/app_icon"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/l_et_username"
+        android:layout_below="@id/l_icon"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_grey"
+        android:hint="请输入用户名"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/l_et_password"
+        android:layout_below="@id/l_et_username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_grey"
+        android:hint="请输入密码"
+        android:gravity="center"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/l_tv_forgotPassword"
+        android:layout_below="@id/l_et_password"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Forgot your password?"
+        android:gravity="center"/>
+    
+    <Button
+        android:id="@+id/l_redButton"
+        android:layout_below="@id/l_tv_forgotPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@mipmap/buttons_fill_red"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:background="@color/colorWhileGrey">
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Sign with a social account"/>
+
+        <Button
+            android:id="@+id/l_FaceBookButton"
+            android:layout_below="@id/tv1"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:text="Login with Facebook"
+            android:textColor="@color/colorWhile"
+            android:textStyle="bold"
+            android:background="@mipmap/rectangle1"/>
+
+        <Button
+            android:id="@+id/l_TwitterButton"
+            android:layout_below="@id/l_FaceBookButton"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:text="Login with Twitter"
+            android:textColor="@color/colorWhile"
+            android:textStyle="bold"
+            android:background="@mipmap/rectangle"/>
+
+    </LinearLayout>
+</RelativeLayout>
